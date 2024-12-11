@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Chadha - Finance and Computer Science Student @ Fordham University</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+    <style>
+        .navy-bg {
+            background-color: #000080;
+        }
+        .bright-blue {
+            background-color: #1893f8;
+        }
+        .nav-link.active {
+            border-bottom: 2px solid #1893f8;
+            color: #000080;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .skill-tag:hover {
+            background-color: #000080;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <header class="navy-bg text-white py-20 relative">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl font-bold mb-6">Aryan Chadha</h1>
+                <p class="text-2xl mb-8 opacity-90">Finance Professional & Software Engineer</p>
+                <div class="flex justify-center space-x-6">
+                    <a href="mailto:achadha5@fordham.edu" class="bright-blue px-6 py-2 rounded-full hover:opacity-90 transition duration-300 flex items-center space-x-2">
+                        <i data-feather="mail"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="https://github.com/achadha5" target="_blank" rel="noopener noreferrer" class="bright-blue px-6 py-2 rounded-full hover:opacity-90 transition duration-300 flex items-center space-x-2">
+                        <i data-feather="github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/aryanrchadha" target="_blank" rel="noopener noreferrer" class="bright-blue px-6 py-2 rounded-full hover:opacity-90 transition duration-300 flex items-center space-x-2">
+                        <i data-feather="linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-center space-x-8">
+                <button onclick="switchTab('about')" class="nav-link py-4 px-4 transition duration-300">About</button>
+                <button onclick="switchTab('experience')" class="nav-link py-4 px-4 transition duration-300">Experience</button>
+                <button onclick="switchTab('projects')" class="nav-link py-4 px-4 transition duration-300">Projects</button>
+                <button onclick="switchTab('skills')" class="nav-link py-4 px-4 transition duration-300">Skills</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-16">
+        <!-- About Section -->
+        <section id="about" class="section-content">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-navy">About Me</h2>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Finance and Computer Science student at Fordham University's Gabelli School of Business, 
+                    combining quantitative expertise with software engineering skills. Experienced in cryptocurrency 
+                    trading, blockchain technology, and full-stack development.
+                </p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-content hidden">
+            <div class="max-w-3xl mx-auto space-y-8">
+                <h2 class="text-3xl font-bold mb-8 text-navy">Professional Experience</h2>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-navy">Institutional Sales and Business Development Intern - Shikhara Investment Management</h3>
+                    <p class="text-gray-600 mb-2">September 2024 - December 2024 | New York City</p>
+                    <p class="text-gray-700">
+                        - Wrote cold emails to pension funds, family offices, university endowments, and sovereign wealth funds<br>
+                        - Prepare suggestions for promotional merchandise and distribution strategies<br>
+                        - Learn about Due Diligence Questionnaires, KYC, and AML forms for capital raising
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-navy">Consumer Discretionary, Financials, Healthcare, and Technology Summer Analyst - Shikhara Investment Management</h3>
+                    <p class="text-gray-600 mb-2">May 2024 - August 2024 | New York City</p>
+                    <p class="text-gray-700">
+                        - Wrote buy-side equity research reports covering Asia Ex-Japan financial markets<br>
+                        - Attend weekly meetings to discuss research findings and investment opportunities<br>
+                        - Work with CIO and Managing Directors on company coverage
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-navy">Founder and CIO - Juhu Capital Research</h3>
+                    <p class="text-gray-600 mb-2">August 2023 - December 2023 | New York City</p>
+                    <p class="text-gray-700">
+                        - Wrote weekly newsletter on Quantitative Value Investing to undergraduate and graduate students<br>
+                        - Leveraged Python and fundamentals of value investing for securities selection<br>
+                        - Provided recommendations list and portfolio tracked on Bloomberg
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-navy">Intern, Central Strategy Team - Zomato Inc.</h3>
+                    <p class="text-gray-600 mb-2">August 2023 | Gurugram, India</p>
+                    <p class="text-gray-700">
+                        - Used discovery-driven planning for new business launch in wellness sector<br>
+                        - Researched anti-aging and reverse aging aspects including supplements and therapies<br>
+                        - Pitched strategy deck for expanding beyond food delivery
+                    </p>
+                </div>
+
+                <h2 class="text-3xl font-bold mb-8 mt-16 text-navy">Leadership Experience</h2>
+                
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-navy">Head of Hedge Funds Focus Group - Fordham Alternative Investments Club</h3>
+                    <p class="text-gray-600 mb-2">August 2024 - Present | New York City</p>
+                    <p class="text-gray-700">
+                        - Conduct team of analysts writing monthly research report<br>
+                        - Organize guest lectures with industry professionals<br>
+                        - Manage corporate sponsorships for competitions
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-navy">Vice President & Head of Quantitative Research - Fordham Value Investing Club</h3>
+                    <p class="text-gray-600 mb-2">September 2023 - Present | New York City</p>
+                    <p class="text-gray-700">
+                        - Oversee team of analysts in ethical investing fields<br>
+                        - Edit research on exchange-traded securities<br>
+                        - Conduct securities research using Bloomberg, WSJ, FactSet
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-navy">Head of Private Equity Focus Group - Fordham Alternative Investments Club</h3>
+                    <p class="text-gray-600 mb-2">November 2023 - May 2024 | New York City</p>
+                    <p class="text-gray-700">
+                        - Led team writing semesterly research report<br>
+                        - Organized industry executive guest lectures<br>
+                        - Managed case competitions and challenges
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold text-navy">Two-Time Champion - Young Founders School</h3>
+                    <p class="text-gray-600 mb-2">February 2018 - January 2019 | Hong Kong S.A.R</p>
+                    <p class="text-gray-700">
+                        - Leveraged social entrepreneurship to develop functional MVP<br>
+                        - Created lean startup pitch deck in 48 hours<br>
+                        - Presented at the AliBaba Jumpstarter Conference in 2019 and Credit Suisse Asian Investment Conference in March 2018
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-content hidden">
+            <h2 class="text-3xl font-bold mb-8 text-navy">Quantitative Finance Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="project-card bg-white rounded-lg shadow-md p-6 transition duration-300">
+                    <h3 class="text-xl font-bold mb-2 text-navy">Automated Due Diligence Platform</h3>
+                    <p class="text-gray-600 mb-4">Built an AI-powered platform to automate and streamline the due diligence process for PE/VC investments. Implemented NLP to analyze financial statements and market reports.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">AI</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">NLP</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card bg-white rounded-lg shadow-md p-6 transition duration-300">
+                    <h3 class="text-xl font-bold mb-2 text-navy">ESG-Focused Quantitative Strategy</h3>
+                    <p class="text-gray-600 mb-4">Created a quantitative model incorporating ESG factors into investment decisions. Utilized NLP for sustainability report analysis.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">ESG</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">NLP</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Quantitative</span>
+                    </div>
+                </div>
+
+                <div class="project-card bg-white rounded-lg shadow-md p-6 transition duration-300">
+                    <h3 class="text-xl font-bold mb-2 text-navy">PE Fund Prediction Model</h3>
+                    <p class="text-gray-600 mb-4">Designed ML model to predict PE fund performance using C++. Analyzed team composition and investment strategy factors.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">ML</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">C++</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Private Equity</span>
+                    </div>
+                </div>
+
+                <div class="project-card bg-white rounded-lg shadow-md p-6 transition duration-300">
+                    <h3 class="text-xl font-bold mb-2 text-navy">Earnings Call Analysis System</h3>
+                    <p class="text-gray-600 mb-4">Developed NLP model analyzing earnings call transcripts for sentiment classification and key metric extraction.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">NLP</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Python</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Finance</span>
+                    </div>
+                </div>
+
+                <div class="project-card bg-white rounded-lg shadow-md p-6 transition duration-300">
+                    <h3 class="text-xl font-bold mb-2 text-navy">Market Sentiment Analysis</h3>
+                    <p class="text-gray-600 mb-4">Built sentiment analysis system for financial news and social media, correlating scores with stock prices.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Sentiment</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">ML</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Trading</span>
+                    </div>
+                </div>
+
+                <div class="project-card bg-white rounded-lg shadow-md p-6 transition duration-300">
+                    <h3 class="text-xl font-bold mb-2 text-navy">Crypto Trading Platform</h3>
+                    <p class="text-gray-600 mb-4">Developed trading platform with ML-driven models and automated systems for cryptocurrency trading.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Crypto</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">ML</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Trading</span>
+                    </div>
+                </div>
+
+                <div class="project-card bg-white rounded-lg shadow-md p-6 transition duration-300">
+                    <h3 class="text-xl font-bold mb-2 text-navy">Portfolio Management System</h3>
+                    <p class="text-gray-600 mb-4">Built quantitative portfolio management platform with ML-driven asset allocation and automated rebalancing.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Portfolio</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">ML</span>
+                        <span
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-content hidden">
+            <h2 class="text-3xl font-bold mb-8 text-navy">Skills & Certifications</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-4 text-navy">Technical Skills</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag px-3 py-1 bright-blue text-white rounded-full text-sm transition duration-300">Python</span>
+                        <span class="skill-tag px-3 py-1 bright-blue text-white rounded-full text-sm transition duration-300">JavaScript</span>
+                        <span class="skill-tag px-3 py-1 bright-blue text-white rounded-full text-sm transition duration-300">React</span>
+                        <!-- Add more skills -->
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-4 text-navy">Certifications</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag px-3 py-1 bright-blue text-white rounded-full text-sm transition duration-300">Bloomberg Market Concepts</span>
+                        <span class="skill-tag px-3 py-1 bright-blue text-white rounded-full text-sm transition duration-300">Harvard CS50</span>
+                        <!-- Add more certifications -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="navy-bg text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-4">Based in New York | Available for Opportunities</p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:achadha5@fordham.edu" class="hover:text-blue-400 transition duration-300">
+                    <i data-feather="mail"></i>
+                </a>
+                <a href="https://github.com/achadha5" class="hover:text-blue-400 transition duration-300">
+                    <i data-feather="github"></i>
+                </a>
+                <a href="https://linkedin.com/in/aryanrchadha" class="hover:text-blue-400 transition duration-300">
+                    <i data-feather="linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+
+        // Tab Switching Logic
+        function switchTab(tabId) {
+            // Hide all sections
+            document.querySelectorAll('.section-content').forEach(section => {
+                section.classList.add('hidden');
+            });
+            
+            // Show selected section
+            document.getElementById(tabId).classList.remove('hidden');
+            
+            // Update active tab styling
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        // Initialize first tab
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.nav-link').classList.add('active');
+        });
+    </script>
+</body>
+</html>
